@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Placa de Video RTX 4060",
+    "precio": 450000,
+    "stock": 5,
+    "imagen": "https://i.ibb.co/nN4Fn0Cv/Captura-de-pantalla-2026-09-26-095815.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Teclado Mecánico RGB",
+    "precio": 65000,
+    "stock": 14,
+    "imagen": "https://i.ibb.co/n8PQpB70/Captura-de-pantalla-2026-09-26-100227.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Procesador AMD Ryzen 5",
+    "precio": 210000,
+    "stock": 8,
+    "imagen": "https://i.ibb.co/xSV1m1wj/Captura-de-pantalla-2026-09-26-115925.png"
+  }
+]
