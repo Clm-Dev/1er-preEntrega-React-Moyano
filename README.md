@@ -1,16 +1,49 @@
-# React + Vite
+markdown# 🎮 Gamer World - Tienda de Componentes de Computación
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación interactiva desarrollada en **React** que simula un catálogo en línea para la compra de hardware. El proyecto cuenta con una estructura de carpetas propia y navegación fluida sin recargas de página.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologías utilizadas
 
-## React Compiler
+*   **React 18**
+*   **Vite**
+*   **React Router Dom** (Para la navegación)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Estructura de carpetas (Explorador de Window)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 mi-proyecto-gamer
+ ├── 📁 public
+ │    └── 📁 datos
+ │         └── 📄 productos.json
+ ├── 📁 src
+ │    ├── 📁 components
+ │    │    ├── 📄 Footer.jsx
+ │    │    ...
+ │    └── 📁 views
+ │         ├── 📄 MainLayout.jsx
+ │         ...
+ ├── 📄 index.html
+ ├── 📄 package.json
+ └── 📄 README.md   
+
+ ## 📋 Cumplimiento de consignas
+
+1.  **Estructura:** Componente `MainLayout.jsx` que incluye cabecera, navegación y un pie de página con información de la empresa y las tarjetas de 3 personas del equipo.
+2.  **Catálogo:** Carga de productos desde el archivo local `productos.json` usando `fetch` y `useEffect`. Los datos se envían por propiedades al componente reutilizable `ProductCard.jsx`.
+3.  **Rutas:** Navegación armada con `react-router-dom` usando enlaces que no recargan la página para las secciones: `/`, `/productos`, `/producto/:id` y `/carrito`.
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Instalar los paquetes de npm:
+   ```bash
+   npm install
+   ```
+2. Iniciar el servidor local:
+   ```bash
+   npm run dev
+   ```
