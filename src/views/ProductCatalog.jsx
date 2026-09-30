@@ -19,7 +19,7 @@ function ProductCatalog() {
     }, []);
 
     if (isLoading === true) {
-        return <h2 style={{ color: 'white', textAlign: 'center' }}>Searching products in stock...</h2>;
+        return <h2 style={{ color: 'white', textAlign: 'center' }}>Buscando productos en existencia</h2>;
     }
 
     return (

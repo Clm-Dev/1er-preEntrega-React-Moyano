@@ -20,8 +20,8 @@ function ProductDetail() {
             .catch(() => setHasError(true));
     }, [id]);
 
-    if (hasError) return <h3 style={{ color: 'red', textAlign: 'center' }}>The requested product does not exist.</h3>;
-    if (!product) return <h3 style={{ color: 'white', textAlign: 'center' }}>Loading technical details...</h3>;
+    if (hasError) return <h3 style={{ color: 'red', textAlign: 'center' }}>TEl producto solicitado no existe.</h3>;
+    if (!product) return <h3 style={{ color: 'white', textAlign: 'center' }}>Cargando detalles técnicos.</h3>;
 
     return (
         <div style={{ maxWidth: '600px', margin: '40px auto', padding: '20px', border: '1px solid #333', backgroundColor: '#151515', borderRadius: '10px', color: 'white', textAlign: 'center' }}>
